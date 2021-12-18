@@ -5,7 +5,6 @@ SET time_zone = '+00:00';
 SET foreign_key_checks = 0;
 SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
 
--- CREATE DATABASE `wordpresstask` /*!40100 DEFAULT CHARACTER SET latin1 */;
 USE `wordpresstask`;
 
 SET NAMES utf8mb4;
@@ -85,7 +84,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (1,	'siteurl',	'http://localhost:8080',	'yes'),
 (2,	'home',	'http://localhost:8080',	'yes'),
 (3,	'blogname',	'ReasonDigital Wordpress Task',	'yes'),
-(4,	'blogdescription',	'Just another WordPress site',	'yes'),
+(4,	'blogdescription',	'Just another WordPress test',	'yes'),
 (5,	'users_can_register',	'0',	'yes'),
 (6,	'admin_email',	'ben2613.w@gmail.com',	'yes'),
 (7,	'start_of_week',	'1',	'yes'),
@@ -167,7 +166,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (83,	'default_post_format',	'0',	'yes'),
 (84,	'link_manager_enabled',	'0',	'yes'),
 (85,	'finished_splitting_shared_terms',	'1',	'yes'),
-(86,	'site_icon',	'0',	'yes'),
+(86,	'site_icon',	'48',	'yes'),
 (87,	'medium_large_size_w',	'768',	'yes'),
 (88,	'medium_large_size_h',	'0',	'yes'),
 (89,	'wp_page_for_privacy_policy',	'3',	'yes'),
@@ -198,7 +197,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (114,	'widget_tag_cloud',	'a:1:{s:12:\"_multiwidget\";i:1;}',	'yes'),
 (115,	'widget_nav_menu',	'a:1:{s:12:\"_multiwidget\";i:1;}',	'yes'),
 (116,	'widget_custom_html',	'a:1:{s:12:\"_multiwidget\";i:1;}',	'yes'),
-(117,	'_transient_doing_cron',	'1639852560.6759378910064697265625',	'yes'),
+(117,	'_transient_doing_cron',	'1639868573.2402439117431640625000',	'yes'),
 (118,	'_site_transient_update_core',	'O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:59:\"https://downloads.wordpress.org/release/wordpress-5.8.2.zip\";s:6:\"locale\";s:5:\"en_US\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:59:\"https://downloads.wordpress.org/release/wordpress-5.8.2.zip\";s:10:\"no_content\";s:70:\"https://downloads.wordpress.org/release/wordpress-5.8.2-no-content.zip\";s:11:\"new_bundled\";s:71:\"https://downloads.wordpress.org/release/wordpress-5.8.2-new-bundled.zip\";s:7:\"partial\";s:0:\"\";s:8:\"rollback\";s:0:\"\";}s:7:\"current\";s:5:\"5.8.2\";s:7:\"version\";s:5:\"5.8.2\";s:11:\"php_version\";s:6:\"5.6.20\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"5.6\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1639837160;s:15:\"version_checked\";s:5:\"5.8.2\";s:12:\"translations\";a:0:{}}',	'no'),
 (119,	'_site_transient_update_plugins',	'O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1639837160;s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}s:9:\"no_update\";a:2:{s:19:\"akismet/akismet.php\";O:8:\"stdClass\":10:{s:2:\"id\";s:21:\"w.org/plugins/akismet\";s:4:\"slug\";s:7:\"akismet\";s:6:\"plugin\";s:19:\"akismet/akismet.php\";s:11:\"new_version\";s:5:\"4.2.1\";s:3:\"url\";s:38:\"https://wordpress.org/plugins/akismet/\";s:7:\"package\";s:56:\"https://downloads.wordpress.org/plugin/akismet.4.2.1.zip\";s:5:\"icons\";a:2:{s:2:\"2x\";s:59:\"https://ps.w.org/akismet/assets/icon-256x256.png?rev=969272\";s:2:\"1x\";s:59:\"https://ps.w.org/akismet/assets/icon-128x128.png?rev=969272\";}s:7:\"banners\";a:1:{s:2:\"1x\";s:61:\"https://ps.w.org/akismet/assets/banner-772x250.jpg?rev=479904\";}s:11:\"banners_rtl\";a:0:{}s:8:\"requires\";s:3:\"5.0\";}s:9:\"hello.php\";O:8:\"stdClass\":10:{s:2:\"id\";s:25:\"w.org/plugins/hello-dolly\";s:4:\"slug\";s:11:\"hello-dolly\";s:6:\"plugin\";s:9:\"hello.php\";s:11:\"new_version\";s:5:\"1.7.2\";s:3:\"url\";s:42:\"https://wordpress.org/plugins/hello-dolly/\";s:7:\"package\";s:60:\"https://downloads.wordpress.org/plugin/hello-dolly.1.7.2.zip\";s:5:\"icons\";a:2:{s:2:\"2x\";s:64:\"https://ps.w.org/hello-dolly/assets/icon-256x256.jpg?rev=2052855\";s:2:\"1x\";s:64:\"https://ps.w.org/hello-dolly/assets/icon-128x128.jpg?rev=2052855\";}s:7:\"banners\";a:2:{s:2:\"2x\";s:67:\"https://ps.w.org/hello-dolly/assets/banner-1544x500.jpg?rev=2645582\";s:2:\"1x\";s:66:\"https://ps.w.org/hello-dolly/assets/banner-772x250.jpg?rev=2052855\";}s:11:\"banners_rtl\";a:0:{}s:8:\"requires\";s:3:\"4.6\";}}}',	'no'),
 (122,	'_site_transient_update_themes',	'O:8:\"stdClass\":5:{s:12:\"last_checked\";i:1639837161;s:7:\"checked\";a:4:{s:14:\"twentynineteen\";s:3:\"2.1\";s:12:\"twentytwenty\";s:3:\"1.8\";s:15:\"twentytwentyone\";s:3:\"1.4\";s:13:\"wordpressonly\";s:3:\"1.0\";}s:8:\"response\";a:0:{}s:9:\"no_update\";a:3:{s:14:\"twentynineteen\";a:6:{s:5:\"theme\";s:14:\"twentynineteen\";s:11:\"new_version\";s:3:\"2.1\";s:3:\"url\";s:44:\"https://wordpress.org/themes/twentynineteen/\";s:7:\"package\";s:60:\"https://downloads.wordpress.org/theme/twentynineteen.2.1.zip\";s:8:\"requires\";s:5:\"4.9.6\";s:12:\"requires_php\";s:5:\"5.2.4\";}s:12:\"twentytwenty\";a:6:{s:5:\"theme\";s:12:\"twentytwenty\";s:11:\"new_version\";s:3:\"1.8\";s:3:\"url\";s:42:\"https://wordpress.org/themes/twentytwenty/\";s:7:\"package\";s:58:\"https://downloads.wordpress.org/theme/twentytwenty.1.8.zip\";s:8:\"requires\";s:3:\"4.7\";s:12:\"requires_php\";s:5:\"5.2.4\";}s:15:\"twentytwentyone\";a:6:{s:5:\"theme\";s:15:\"twentytwentyone\";s:11:\"new_version\";s:3:\"1.4\";s:3:\"url\";s:45:\"https://wordpress.org/themes/twentytwentyone/\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/theme/twentytwentyone.1.4.zip\";s:8:\"requires\";s:3:\"5.3\";s:12:\"requires_php\";s:3:\"5.6\";}}s:12:\"translations\";a:0:{}}',	'no'),
@@ -249,7 +248,7 @@ CREATE TABLE `wp_postmeta` (
   PRIMARY KEY (`meta_id`),
   KEY `post_id` (`post_id`),
   KEY `meta_key` (`meta_key`(191))
-) ENGINE=InnoDB AUTO_INCREMENT=134 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=143 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (1,	2,	'_wp_page_template',	'default'),
@@ -377,7 +376,16 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (129,	45,	'_menu_item_target',	''),
 (130,	45,	'_menu_item_classes',	'a:1:{i:0;s:0:\"\";}'),
 (131,	45,	'_menu_item_xfn',	''),
-(132,	45,	'_menu_item_url',	'');
+(132,	45,	'_menu_item_url',	''),
+(134,	46,	'_wp_trash_meta_status',	'publish'),
+(135,	46,	'_wp_trash_meta_time',	'1639860989'),
+(136,	47,	'_wp_attached_file',	'2021/12/582-512x512-1.jpg'),
+(137,	47,	'_wp_attachment_metadata',	'a:5:{s:5:\"width\";i:512;s:6:\"height\";i:512;s:4:\"file\";s:25:\"2021/12/582-512x512-1.jpg\";s:5:\"sizes\";a:2:{s:6:\"medium\";a:4:{s:4:\"file\";s:25:\"582-512x512-1-300x300.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:300;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:9:\"thumbnail\";a:4:{s:4:\"file\";s:25:\"582-512x512-1-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"1\";s:8:\"keywords\";a:0:{}}}'),
+(138,	48,	'_wp_attached_file',	'2021/12/cropped-582-512x512-1.jpg'),
+(139,	48,	'_wp_attachment_context',	'site-icon'),
+(140,	48,	'_wp_attachment_metadata',	'a:5:{s:5:\"width\";i:512;s:6:\"height\";i:512;s:4:\"file\";s:33:\"2021/12/cropped-582-512x512-1.jpg\";s:5:\"sizes\";a:6:{s:6:\"medium\";a:4:{s:4:\"file\";s:33:\"cropped-582-512x512-1-300x300.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:300;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:9:\"thumbnail\";a:4:{s:4:\"file\";s:33:\"cropped-582-512x512-1-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:13:\"site_icon-270\";a:4:{s:4:\"file\";s:33:\"cropped-582-512x512-1-270x270.jpg\";s:5:\"width\";i:270;s:6:\"height\";i:270;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:13:\"site_icon-192\";a:4:{s:4:\"file\";s:33:\"cropped-582-512x512-1-192x192.jpg\";s:5:\"width\";i:192;s:6:\"height\";i:192;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:13:\"site_icon-180\";a:4:{s:4:\"file\";s:33:\"cropped-582-512x512-1-180x180.jpg\";s:5:\"width\";i:180;s:6:\"height\";i:180;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:12:\"site_icon-32\";a:4:{s:4:\"file\";s:31:\"cropped-582-512x512-1-32x32.jpg\";s:5:\"width\";i:32;s:6:\"height\";i:32;s:9:\"mime-type\";s:10:\"image/jpeg\";}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"1\";s:8:\"keywords\";a:0:{}}}'),
+(141,	49,	'_wp_trash_meta_status',	'publish'),
+(142,	49,	'_wp_trash_meta_time',	'1639868641');
 
 DROP TABLE IF EXISTS `wp_posts`;
 CREATE TABLE `wp_posts` (
@@ -409,7 +417,7 @@ CREATE TABLE `wp_posts` (
   KEY `type_status_date` (`post_type`,`post_status`,`post_date`,`ID`),
   KEY `post_parent` (`post_parent`),
   KEY `post_author` (`post_author`)
-) ENGINE=InnoDB AUTO_INCREMENT=46 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=50 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_content_filtered`, `post_parent`, `guid`, `menu_order`, `post_type`, `post_mime_type`, `comment_count`) VALUES
 (1,	1,	'2021-12-16 23:49:30',	'2021-12-16 23:49:30',	'<!-- wp:paragraph -->\n<p>They rushed out the door, grabbing anything and everything they could think of they might need. There was no time to double-check to make sure they weren\'t leaving something important behind. Everything was thrown into the car and they sped off. Thirty minutes later they were safe and that was when it dawned on them that they had forgotten the most important thing of all.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>He hid under the covers hoping that nobody would notice him there. It really didn\'t make much sense since it would be obvious to anyone who walked into the room there was someone hiding there, but he still held out hope. He heard footsteps coming down the hall and stop in front in front of the bedroom door. He heard the squeak of the door hinges and someone opened the bedroom door. He held his breath waiting for whoever was about to discover him, but they never did.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->',	'Title 1',	'',	'publish',	'open',	'open',	'',	'hello-world',	'',	'',	'2021-12-18 17:45:36',	'2021-12-18 17:45:36',	'',	0,	'http://localhost:8080/?p=1',	0,	'post',	'',	1),
@@ -454,7 +462,11 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (42,	1,	'2021-12-18 18:08:17',	'2021-12-18 18:08:17',	'<!-- wp:paragraph -->\n<p>Finding the truth wouldn\'t be easy, that\'s for sure. Then there was the question of whether or not Jane really wanted to know the truth. That\'s the thing that bothered her most. It wasn\'t the difficulty of actually finding out what happened that was the obstacle, but having to live with that information once it was found.</p>\n<!-- /wp:paragraph -->',	'Title 9',	'',	'inherit',	'closed',	'closed',	'',	'41-revision-v1',	'',	'',	'2021-12-18 18:08:17',	'2021-12-18 18:08:17',	'',	41,	'http://localhost:8080/?p=42',	0,	'revision',	'',	0),
 (43,	1,	'2021-12-18 18:23:58',	'2021-12-18 18:23:58',	' ',	'',	'',	'publish',	'closed',	'closed',	'',	'43',	'',	'',	'2021-12-18 18:23:58',	'2021-12-18 18:23:58',	'',	0,	'http://localhost:8080/?p=43',	3,	'nav_menu_item',	'',	0),
 (44,	1,	'2021-12-18 18:23:58',	'2021-12-18 18:23:58',	' ',	'',	'',	'publish',	'closed',	'closed',	'',	'44',	'',	'',	'2021-12-18 18:23:58',	'2021-12-18 18:23:58',	'',	0,	'http://localhost:8080/?p=44',	4,	'nav_menu_item',	'',	0),
-(45,	1,	'2021-12-18 18:23:58',	'2021-12-18 18:23:58',	' ',	'',	'',	'publish',	'closed',	'closed',	'',	'45',	'',	'',	'2021-12-18 18:23:58',	'2021-12-18 18:23:58',	'',	0,	'http://localhost:8080/?p=45',	5,	'nav_menu_item',	'',	0);
+(45,	1,	'2021-12-18 18:23:58',	'2021-12-18 18:23:58',	' ',	'',	'',	'publish',	'closed',	'closed',	'',	'45',	'',	'',	'2021-12-18 18:23:58',	'2021-12-18 18:23:58',	'',	0,	'http://localhost:8080/?p=45',	5,	'nav_menu_item',	'',	0),
+(46,	1,	'2021-12-18 20:56:29',	'2021-12-18 20:56:29',	'{\n    \"blogdescription\": {\n        \"value\": \"Just another WordPress test\",\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2021-12-18 20:56:29\"\n    }\n}',	'',	'',	'trash',	'closed',	'closed',	'',	'97a4e8bd-c729-4c87-9b2e-bd5818475c66',	'',	'',	'2021-12-18 20:56:29',	'2021-12-18 20:56:29',	'',	0,	'http://localhost:8080/?p=46',	0,	'customize_changeset',	'',	0),
+(47,	1,	'2021-12-18 23:03:41',	'2021-12-18 23:03:41',	'',	'582-512x512',	'',	'inherit',	'open',	'closed',	'',	'582-512x512',	'',	'',	'2021-12-18 23:03:41',	'2021-12-18 23:03:41',	'',	0,	'http://localhost:8080/wp-content/uploads/2021/12/582-512x512-1.jpg',	0,	'attachment',	'image/jpeg',	0),
+(48,	1,	'2021-12-18 23:03:47',	'2021-12-18 23:03:47',	'http://localhost:8080/wp-content/uploads/2021/12/cropped-582-512x512-1.jpg',	'cropped-582-512x512-1.jpg',	'',	'inherit',	'open',	'closed',	'',	'cropped-582-512x512-1-jpg',	'',	'',	'2021-12-18 23:03:47',	'2021-12-18 23:03:47',	'',	0,	'http://localhost:8080/wp-content/uploads/2021/12/cropped-582-512x512-1.jpg',	0,	'attachment',	'image/jpeg',	0),
+(49,	1,	'2021-12-18 23:04:01',	'2021-12-18 23:04:01',	'{\n    \"site_icon\": {\n        \"value\": 48,\n        \"type\": \"option\",\n        \"user_id\": 1,\n        \"date_modified_gmt\": \"2021-12-18 23:04:01\"\n    }\n}',	'',	'',	'trash',	'closed',	'closed',	'',	'20f331aa-982a-4c42-bd1c-d8bf553da0ed',	'',	'',	'2021-12-18 23:04:01',	'2021-12-18 23:04:01',	'',	0,	'http://localhost:8080/?p=49',	0,	'customize_changeset',	'',	0);
 
 DROP TABLE IF EXISTS `wp_termmeta`;
 CREATE TABLE `wp_termmeta` (
@@ -590,4 +602,4 @@ CREATE TABLE `wp_users` (
 INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
 (1,	'ben2613',	'$P$BBgJApeknMIeBy4o.OY.CHbe/JGTUW1',	'ben2613',	'ben2613.w@gmail.com',	'http://localhost:8080',	'2021-12-16 23:49:30',	'',	0,	'ben2613');
 
--- 2021-12-18 18:36:40
+-- 2021-12-18 23:04:32
