@@ -5,6 +5,8 @@
 - Run `docker-compose up -d`
 - The db.sql is automatically imported for you!
 - Browse http://localhost:8080/
+- Browse http://localhost:8080/wp-admin to add post or change theme to WordPressWithVueJS (Pending)
+- Oh the admin login is ben2613 / 12345678
 
 You may change to use `wordpress` docker image just in case you do not trust the image I used for debugging
 
