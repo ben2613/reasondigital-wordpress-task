@@ -18,6 +18,7 @@ services:
       - ./uploads/:/var/www/html/wp-content/uploads/
       - wordpress:/var/www/html/
       - ./files-to-xdebug/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
+      - ./.htaccess:/var/www/html/.htaccess
     depends_on:
       - db
 
