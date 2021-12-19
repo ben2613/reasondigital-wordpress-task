@@ -25,9 +25,11 @@
           <label for="menu-toggle" id="menu-icon">
             <div></div><div></div><div></div>
           </label>
-          <?php if (has_site_icon()): ?>
-          <a href="<?php bloginfo('url'); ?>"><img src="<?php echo get_site_icon_url(40) ?>" alt="Site Icon"></a>
-          <?php endif; // has_site_icon ?>
+          <?php
+            if (has_custom_logo()) {
+              the_custom_logo();
+            }
+          ?>
         </div>
         <input type="checkbox" id="menu-toggle" <?php echo is_category() ? 'checked' : ''; ?>>
         <div class="menu-expand">
