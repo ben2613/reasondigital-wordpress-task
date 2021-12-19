@@ -26,8 +26,22 @@ export default {
     this.axios.defaults.baseURL = import.meta.env.VITE_API_URL
   },
   async mounted() {
-    let data = (await this.axios.get()).data
-    this.$store.commit('setSiteTitle', data.name)
+    this.axios
+      .get()
+      .then(({ data }) => {
+        this.$store.commit('setIndexJson', data)
+        this.$store.commit('setSiteTitle', data.name)
+        return this.axios.get(`/wp/v2/media/${data.site_logo}`)
+      })
+      .then(({ data }) => {
+        this.$store.commit('setSiteLogoUrl', data.media_details.sizes.thumbnail.source_url)
+      })
+    this.axios.get('/wp/v2/posts').then(({ data }) => {
+      this.$store.commit('setPosts', data)
+    })
+    this.axios.get('/wp/v2/categories').then(({ data }) => {
+      this.$store.commit('setCategories', data)
+    })
   },
 }
 </script>
