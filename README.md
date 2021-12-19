@@ -1,14 +1,19 @@
 ## Step to run
 
+### Wordpress Only
+
 - If you are using port `8080`/`8082`, change them in the docker-compose.yml
-- If you **changed** the `8080`, **replace** all `8080` to the port you use in `db.sql`
+- If you changed the port `8080`, replace all `8080` to the port you use in `db.sql`
 - Run `docker-compose up -d`
 - The db.sql is automatically imported for you!
 - Browse http://localhost:8080/
 - Browse http://localhost:8080/wp-admin to add post
+- Oh the admin login is ben2613 / 12345678
+### Vue App
+
+- If you changed the port `8080`, edit the `VITE_API_URL` at `vue-app/.env` correspondingly
 - Go `vue-app`, Run `yarn & yarn build` or `npm i & npm run build` to build the project into `dist` folder
 - Browse http://localhost:8081/ to VueJS App fetching WordPress API
-- Oh the admin login is ben2613 / 12345678
 
 You may change to use `wordpress` docker image just in case you do not trust the image I used for debugging
 

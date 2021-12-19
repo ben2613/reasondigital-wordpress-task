@@ -42,7 +42,7 @@ a {
 export default {
   data() {
     return {
-      envString: import.meta.env.VITE_SOME_KEY,
+      envString: import.meta.env.VITE_API_URL,
     };
   },
 };

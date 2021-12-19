@@ -19,3 +19,14 @@ import HelloWorld from './components/HelloWorld.vue'
   margin-top: 60px;
 }
 </style>
+
+<script>
+export default {
+  created() {
+    this.axios.defaults.baseURL = import.meta.env.VITE_API_URL
+  },
+  async mounted() {
+    console.log(await this.axios.get())
+  }
+}
+</script>

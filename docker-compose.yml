@@ -40,6 +40,7 @@ services:
       - 8081:80
     volumes:
       - ./vue-app/dist/:/usr/share/nginx/html/
+    # You need to set site url in vue-app/.env to for building time
 
   adminer:
     image: adminer
