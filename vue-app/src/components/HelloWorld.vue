@@ -9,7 +9,7 @@ const count = ref(0);
 </script>
 
 <template>
-  <h1>{{ envString }}</h1>
+  <h1>{{ siteTitle }}</h1>
   <h2>{{}}</h2>
 
   <p>
@@ -45,5 +45,10 @@ export default {
       envString: import.meta.env.VITE_API_URL,
     };
   },
+  computed: {
+    siteTitle () {
+      return this.$store.state.siteTitle
+    }
+  }
 };
 </script>

@@ -26,7 +26,8 @@ export default {
     this.axios.defaults.baseURL = import.meta.env.VITE_API_URL
   },
   async mounted() {
-    console.log(await this.axios.get())
-  }
+    let data = (await this.axios.get()).data
+    this.$store.commit('setSiteTitle', data.name)
+  },
 }
 </script>
