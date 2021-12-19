@@ -29,6 +29,18 @@ html {
   color: initial;
 }
 
+header.page-header, main {
+  position: relative;
+}
+
+header.page-header {
+  z-index: 1;
+}
+
+main {
+  z-index: 0;
+}
+
 #icon-n-menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -49,12 +61,15 @@ html {
 
 #icon-n-menu #menu-icon {
   cursor: pointer;
+  padding-right: 20px;
 }
 
 #icon-n-menu #menu-icon div {
   width: 35px;
   height: 5px;
   background-color: black;
+  -webkit-box-shadow: 0px 0px 10px white;
+          box-shadow: 0px 0px 10px white;
   margin: 6px 0;
 }
 
@@ -133,5 +148,24 @@ html {
 
 .article-container article a[rel="category"] {
   font-size: small;
+}
+
+.article-single .entry-content {
+  margin-top: -130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.article-single .entry-content p {
+  width: 35%;
+  padding-top: 130px;
+}
+
+.article-single .entry-content img {
+  width: 65%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=style.css.map */

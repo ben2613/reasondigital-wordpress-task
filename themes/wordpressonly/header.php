@@ -29,7 +29,7 @@
           <a href="<?php bloginfo('url'); ?>"><img src="<?php echo get_site_icon_url(40) ?>" alt="Site Icon"></a>
           <?php endif; // has_site_icon ?>
         </div>
-        <input type="checkbox" id="menu-toggle">
+        <input type="checkbox" id="menu-toggle" <?php echo is_category() ? 'checked' : ''; ?>>
         <div class="menu-expand">
           <div class="site-info">
             <h1 class="site-title"><?php bloginfo('name');?></h1>

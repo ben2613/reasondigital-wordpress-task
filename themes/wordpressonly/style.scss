@@ -26,6 +26,17 @@ html {
   }
 }
 
+header.page-header, main {
+  position: relative;
+}
+
+header.page-header {
+  z-index: 1;
+}
+main {
+  z-index: 0;
+}
+
 #icon-n-menu {
   display: flex;
   flex-direction: row-reverse;
@@ -37,10 +48,12 @@ html {
   #menu-icon
   {
     cursor: pointer;
+    padding-right: 20px;
     div{
       width: 35px;
       height: 5px;
       background-color: black;
+      box-shadow: 0px 0px 10px white;
       margin: 6px 0;
     }
   }
@@ -96,6 +109,24 @@ html {
     }
     a[rel="category"] {
       font-size:small ;
+    }
+  }
+}
+
+$margin: 130px;
+$pWidth: 35%;
+.article-single {
+  .entry-content {
+    margin-top: -$margin;
+    display: flex;
+    p {
+      width: $pWidth;
+      padding-top: $margin;
+    }
+    img {
+      width: 100% - $pWidth;
+      height: 100%;
+      object-fit: cover;
     }
   }
 }

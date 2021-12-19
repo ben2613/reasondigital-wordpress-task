@@ -9,8 +9,9 @@
 * @since Twenty Twenty-One 1.0
 */
 
-get_header();
-
+get_header(); ?>
+<div class="article-single">
+<?php
 /* Start the Loop */
 while ( have_posts() ) :
   the_post();
@@ -29,5 +30,7 @@ while ( have_posts() ) :
   </article><!-- #post-<?php the_ID(); ?> -->
   <?php
 endwhile; // End of the loop.
-
+?>
+</div> <!-- article-single -->
+<?php
 get_footer();
