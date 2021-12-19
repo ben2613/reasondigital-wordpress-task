@@ -9,10 +9,129 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: rdwt1
 */
-
-.thumbnail {
-  width: 30%;
-  height: unset;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
 }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+#content {
+  padding: 2% 5%;
+}
+
+#content a {
+  text-decoration: none;
+  color: initial;
+}
+
+#icon-n-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#icon-n-menu img {
+  width: 40px;
+  height: 40px;
+}
+
+#icon-n-menu #menu-icon {
+  cursor: pointer;
+}
+
+#icon-n-menu #menu-icon div {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+#menu-toggle + .menu-expand {
+  max-height: 0px;
+  overflow: hidden;
+  -webkit-transition: max-height 500ms ease-out;
+  transition: max-height 500ms ease-out;
+}
+
+#menu-toggle:checked + .menu-expand {
+  max-height: 400px;
+  -webkit-transition: max-height 500ms ease-in;
+  transition: max-height 500ms ease-in;
+}
+
+.menu-expand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.menu-expand .cat-menu a:first-of-type {
+  margin-left: 0;
+}
+
+.menu-expand .cat-menu a + a {
+  margin-left: 3em;
+}
+
+.menu-expand .cat-menu a[aria-current] {
+  text-decoration: underline !important;
+}
+
+.menu-expand .site-tagline {
+  margin-bottom: 0;
+}
+
+.article-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 3% 0%;
+}
+
+.article-container article {
+  width: 33.3%;
+  padding: 5px;
+}
+
+.article-container article .thumbnail {
+  width: 100%;
+  height: unset;
+  aspect-ratio: 4 / 3;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.article-container article .article-title {
+  margin-bottom: 0;
+}
+
+.article-container article a[rel="category"] {
+  font-size: small;
+}
+/*# sourceMappingURL=style.css.map */
