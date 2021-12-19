@@ -9,14 +9,26 @@ import HelloWorld from './components/HelloWorld.vue'
   <HelloWorld msg="Hello Vue 3 + Vite" />
 </template>
 
-<style>
+<style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  // margin-top: 60px;
+  padding: 2% 5%;
+  a {
+    text-decoration: none;
+    color: initial;
+  }
+}
+html {
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 </style>
 
