@@ -197,7 +197,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (114,	'widget_tag_cloud',	'a:1:{s:12:\"_multiwidget\";i:1;}',	'yes'),
 (115,	'widget_nav_menu',	'a:1:{s:12:\"_multiwidget\";i:1;}',	'yes'),
 (116,	'widget_custom_html',	'a:1:{s:12:\"_multiwidget\";i:1;}',	'yes'),
-(117,	'_transient_doing_cron',	'1639868573.2402439117431640625000',	'yes'),
+(117,	'_transient_doing_cron',	'1639875483.9010949134826660156250',	'yes'),
 (118,	'_site_transient_update_core',	'O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:59:\"https://downloads.wordpress.org/release/wordpress-5.8.2.zip\";s:6:\"locale\";s:5:\"en_US\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:59:\"https://downloads.wordpress.org/release/wordpress-5.8.2.zip\";s:10:\"no_content\";s:70:\"https://downloads.wordpress.org/release/wordpress-5.8.2-no-content.zip\";s:11:\"new_bundled\";s:71:\"https://downloads.wordpress.org/release/wordpress-5.8.2-new-bundled.zip\";s:7:\"partial\";s:0:\"\";s:8:\"rollback\";s:0:\"\";}s:7:\"current\";s:5:\"5.8.2\";s:7:\"version\";s:5:\"5.8.2\";s:11:\"php_version\";s:6:\"5.6.20\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"5.6\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1639837160;s:15:\"version_checked\";s:5:\"5.8.2\";s:12:\"translations\";a:0:{}}',	'no'),
 (119,	'_site_transient_update_plugins',	'O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1639837160;s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}s:9:\"no_update\";a:2:{s:19:\"akismet/akismet.php\";O:8:\"stdClass\":10:{s:2:\"id\";s:21:\"w.org/plugins/akismet\";s:4:\"slug\";s:7:\"akismet\";s:6:\"plugin\";s:19:\"akismet/akismet.php\";s:11:\"new_version\";s:5:\"4.2.1\";s:3:\"url\";s:38:\"https://wordpress.org/plugins/akismet/\";s:7:\"package\";s:56:\"https://downloads.wordpress.org/plugin/akismet.4.2.1.zip\";s:5:\"icons\";a:2:{s:2:\"2x\";s:59:\"https://ps.w.org/akismet/assets/icon-256x256.png?rev=969272\";s:2:\"1x\";s:59:\"https://ps.w.org/akismet/assets/icon-128x128.png?rev=969272\";}s:7:\"banners\";a:1:{s:2:\"1x\";s:61:\"https://ps.w.org/akismet/assets/banner-772x250.jpg?rev=479904\";}s:11:\"banners_rtl\";a:0:{}s:8:\"requires\";s:3:\"5.0\";}s:9:\"hello.php\";O:8:\"stdClass\":10:{s:2:\"id\";s:25:\"w.org/plugins/hello-dolly\";s:4:\"slug\";s:11:\"hello-dolly\";s:6:\"plugin\";s:9:\"hello.php\";s:11:\"new_version\";s:5:\"1.7.2\";s:3:\"url\";s:42:\"https://wordpress.org/plugins/hello-dolly/\";s:7:\"package\";s:60:\"https://downloads.wordpress.org/plugin/hello-dolly.1.7.2.zip\";s:5:\"icons\";a:2:{s:2:\"2x\";s:64:\"https://ps.w.org/hello-dolly/assets/icon-256x256.jpg?rev=2052855\";s:2:\"1x\";s:64:\"https://ps.w.org/hello-dolly/assets/icon-128x128.jpg?rev=2052855\";}s:7:\"banners\";a:2:{s:2:\"2x\";s:67:\"https://ps.w.org/hello-dolly/assets/banner-1544x500.jpg?rev=2645582\";s:2:\"1x\";s:66:\"https://ps.w.org/hello-dolly/assets/banner-772x250.jpg?rev=2052855\";}s:11:\"banners_rtl\";a:0:{}s:8:\"requires\";s:3:\"4.6\";}}}',	'no'),
 (122,	'_site_transient_update_themes',	'O:8:\"stdClass\":5:{s:12:\"last_checked\";i:1639837161;s:7:\"checked\";a:4:{s:14:\"twentynineteen\";s:3:\"2.1\";s:12:\"twentytwenty\";s:3:\"1.8\";s:15:\"twentytwentyone\";s:3:\"1.4\";s:13:\"wordpressonly\";s:3:\"1.0\";}s:8:\"response\";a:0:{}s:9:\"no_update\";a:3:{s:14:\"twentynineteen\";a:6:{s:5:\"theme\";s:14:\"twentynineteen\";s:11:\"new_version\";s:3:\"2.1\";s:3:\"url\";s:44:\"https://wordpress.org/themes/twentynineteen/\";s:7:\"package\";s:60:\"https://downloads.wordpress.org/theme/twentynineteen.2.1.zip\";s:8:\"requires\";s:5:\"4.9.6\";s:12:\"requires_php\";s:5:\"5.2.4\";}s:12:\"twentytwenty\";a:6:{s:5:\"theme\";s:12:\"twentytwenty\";s:11:\"new_version\";s:3:\"1.8\";s:3:\"url\";s:42:\"https://wordpress.org/themes/twentytwenty/\";s:7:\"package\";s:58:\"https://downloads.wordpress.org/theme/twentytwenty.1.8.zip\";s:8:\"requires\";s:3:\"4.7\";s:12:\"requires_php\";s:5:\"5.2.4\";}s:15:\"twentytwentyone\";a:6:{s:5:\"theme\";s:15:\"twentytwentyone\";s:11:\"new_version\";s:3:\"1.4\";s:3:\"url\";s:45:\"https://wordpress.org/themes/twentytwentyone/\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/theme/twentytwentyone.1.4.zip\";s:8:\"requires\";s:3:\"5.3\";s:12:\"requires_php\";s:3:\"5.6\";}}s:12:\"translations\";a:0:{}}',	'no'),
@@ -248,7 +248,7 @@ CREATE TABLE `wp_postmeta` (
   PRIMARY KEY (`meta_id`),
   KEY `post_id` (`post_id`),
   KEY `meta_key` (`meta_key`(191))
-) ENGINE=InnoDB AUTO_INCREMENT=143 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=146 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (1,	2,	'_wp_page_template',	'default'),
@@ -318,7 +318,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (68,	24,	'_menu_item_classes',	'a:1:{i:0;s:0:\"\";}'),
 (69,	24,	'_menu_item_xfn',	''),
 (70,	24,	'_menu_item_url',	''),
-(72,	25,	'_edit_lock',	'1639850518:1'),
+(72,	25,	'_edit_lock',	'1639871927:1'),
 (73,	25,	'_pingme',	'1'),
 (74,	25,	'_encloseme',	'1'),
 (75,	25,	'_thumbnail_id',	'16'),
@@ -329,7 +329,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (80,	29,	'_edit_lock',	'1639850557:1'),
 (81,	27,	'_edit_last',	'1'),
 (82,	27,	'_wp_old_slug',	'title-2-2'),
-(83,	31,	'_edit_lock',	'1639850601:1'),
+(83,	31,	'_edit_lock',	'1639871915:1'),
 (84,	31,	'_pingme',	'1'),
 (85,	31,	'_encloseme',	'1'),
 (86,	31,	'_thumbnail_id',	'14'),
@@ -345,7 +345,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (96,	37,	'_pingme',	'1'),
 (97,	37,	'_encloseme',	'1'),
 (98,	37,	'_thumbnail_id',	'11'),
-(99,	39,	'_edit_lock',	'1639850725:1'),
+(99,	39,	'_edit_lock',	'1639871945:1'),
 (100,	39,	'_pingme',	'1'),
 (101,	39,	'_encloseme',	'1'),
 (102,	39,	'_thumbnail_id',	'10'),
@@ -385,7 +385,10 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (139,	48,	'_wp_attachment_context',	'site-icon'),
 (140,	48,	'_wp_attachment_metadata',	'a:5:{s:5:\"width\";i:512;s:6:\"height\";i:512;s:4:\"file\";s:33:\"2021/12/cropped-582-512x512-1.jpg\";s:5:\"sizes\";a:6:{s:6:\"medium\";a:4:{s:4:\"file\";s:33:\"cropped-582-512x512-1-300x300.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:300;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:9:\"thumbnail\";a:4:{s:4:\"file\";s:33:\"cropped-582-512x512-1-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:13:\"site_icon-270\";a:4:{s:4:\"file\";s:33:\"cropped-582-512x512-1-270x270.jpg\";s:5:\"width\";i:270;s:6:\"height\";i:270;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:13:\"site_icon-192\";a:4:{s:4:\"file\";s:33:\"cropped-582-512x512-1-192x192.jpg\";s:5:\"width\";i:192;s:6:\"height\";i:192;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:13:\"site_icon-180\";a:4:{s:4:\"file\";s:33:\"cropped-582-512x512-1-180x180.jpg\";s:5:\"width\";i:180;s:6:\"height\";i:180;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:12:\"site_icon-32\";a:4:{s:4:\"file\";s:31:\"cropped-582-512x512-1-32x32.jpg\";s:5:\"width\";i:32;s:6:\"height\";i:32;s:9:\"mime-type\";s:10:\"image/jpeg\";}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"1\";s:8:\"keywords\";a:0:{}}}'),
 (141,	49,	'_wp_trash_meta_status',	'publish'),
-(142,	49,	'_wp_trash_meta_time',	'1639868641');
+(142,	49,	'_wp_trash_meta_time',	'1639868641'),
+(143,	39,	'_edit_last',	'1'),
+(144,	31,	'_edit_last',	'1'),
+(145,	25,	'_edit_last',	'1');
 
 DROP TABLE IF EXISTS `wp_posts`;
 CREATE TABLE `wp_posts` (
@@ -442,13 +445,13 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (22,	1,	'2021-12-18 18:23:58',	'2021-12-18 17:53:16',	'',	'All',	'',	'publish',	'closed',	'closed',	'',	'all',	'',	'',	'2021-12-18 18:23:58',	'2021-12-18 18:23:58',	'',	0,	'http://localhost:8080/?p=22',	1,	'nav_menu_item',	'',	0),
 (23,	1,	'2021-12-18 17:52:02',	'0000-00-00 00:00:00',	' ',	'',	'',	'draft',	'closed',	'closed',	'',	'',	'',	'',	'2021-12-18 17:52:02',	'0000-00-00 00:00:00',	'',	0,	'http://localhost:8080/?p=23',	1,	'nav_menu_item',	'',	0),
 (24,	1,	'2021-12-18 18:23:58',	'2021-12-18 17:53:16',	' ',	'',	'',	'publish',	'closed',	'closed',	'',	'24',	'',	'',	'2021-12-18 18:23:58',	'2021-12-18 18:23:58',	'',	0,	'http://localhost:8080/?p=24',	2,	'nav_menu_item',	'',	0),
-(25,	1,	'2021-12-18 18:02:44',	'2021-12-18 18:02:44',	'<!-- wp:paragraph -->\n<p>There was a time and a place for Stephanie to use her magic. The problem was that she had a difficult time determining this. She wished she could simply use it when the desire hit and there wouldn\'t be any unforeseen consequences. Unfortunately, that\'s not how it worked and the consequences could be devastating if she accidentally used her magic at the wrong time.</p>\n<!-- /wp:paragraph -->',	'Title 2',	'',	'publish',	'open',	'open',	'',	'title-2',	'',	'',	'2021-12-18 18:02:44',	'2021-12-18 18:02:44',	'',	0,	'http://localhost:8080/?p=25',	0,	'post',	'',	0),
+(25,	1,	'2021-12-18 18:02:44',	'2021-12-18 18:02:44',	'<!-- wp:paragraph -->\n<p>There was a time and a place for Stephanie to use her magic. The problem was that she had a difficult time determining this. She wished she could simply use it when the desire hit and there wouldn\'t be any unforeseen consequences. Unfortunately, that\'s not how it worked and the consequences could be devastating if she accidentally used her magic at the wrong time.</p>\n<!-- /wp:paragraph -->',	'Title 2',	'',	'publish',	'open',	'open',	'',	'title-2',	'',	'',	'2021-12-18 23:58:47',	'2021-12-18 23:58:47',	'',	0,	'http://localhost:8080/?p=25',	0,	'post',	'',	0),
 (26,	1,	'2021-12-18 18:02:44',	'2021-12-18 18:02:44',	'<!-- wp:paragraph -->\n<p>There was a time and a place for Stephanie to use her magic. The problem was that she had a difficult time determining this. She wished she could simply use it when the desire hit and there wouldn\'t be any unforeseen consequences. Unfortunately, that\'s not how it worked and the consequences could be devastating if she accidentally used her magic at the wrong time.</p>\n<!-- /wp:paragraph -->',	'Title 2',	'',	'inherit',	'closed',	'closed',	'',	'25-revision-v1',	'',	'',	'2021-12-18 18:02:44',	'2021-12-18 18:02:44',	'',	25,	'http://localhost:8080/?p=26',	0,	'revision',	'',	0),
 (27,	1,	'2021-12-18 18:04:52',	'2021-12-18 18:04:52',	'<!-- wp:paragraph -->\n<p>They had no proof. He knew that they knew he had done it but they didn\'t have any proof. It was a huge distinction and it was the difference between him keeping his freedom or being locked away for decades. They continued to question him, probing him for information that they could use against him or find the proof they needed to put him away. He smiled and continued to block their every inquiry by feigning his innocence for a crime they all knew he committed.</p>\n<!-- /wp:paragraph -->',	'Title 3',	'',	'publish',	'open',	'open',	'',	'title-3',	'',	'',	'2021-12-18 18:05:15',	'2021-12-18 18:05:15',	'',	0,	'http://localhost:8080/?p=27',	0,	'post',	'',	0),
 (28,	1,	'2021-12-18 18:04:52',	'2021-12-18 18:04:52',	'<!-- wp:paragraph -->\n<p>They had no proof. He knew that they knew he had done it but they didn\'t have any proof. It was a huge distinction and it was the difference between him keeping his freedom or being locked away for decades. They continued to question him, probing him for information that they could use against him or find the proof they needed to put him away. He smiled and continued to block their every inquiry by feigning his innocence for a crime they all knew he committed.</p>\n<!-- /wp:paragraph -->',	'Title 2',	'',	'inherit',	'closed',	'closed',	'',	'27-revision-v1',	'',	'',	'2021-12-18 18:04:52',	'2021-12-18 18:04:52',	'',	27,	'http://localhost:8080/?p=28',	0,	'revision',	'',	0),
 (29,	1,	'2021-12-18 18:05:00',	'0000-00-00 00:00:00',	'',	'Auto Draft',	'',	'auto-draft',	'open',	'open',	'',	'',	'',	'',	'2021-12-18 18:05:00',	'0000-00-00 00:00:00',	'',	0,	'http://localhost:8080/?p=29',	0,	'post',	'',	0),
 (30,	1,	'2021-12-18 18:05:11',	'2021-12-18 18:05:11',	'<!-- wp:paragraph -->\n<p>They had no proof. He knew that they knew he had done it but they didn\'t have any proof. It was a huge distinction and it was the difference between him keeping his freedom or being locked away for decades. They continued to question him, probing him for information that they could use against him or find the proof they needed to put him away. He smiled and continued to block their every inquiry by feigning his innocence for a crime they all knew he committed.</p>\n<!-- /wp:paragraph -->',	'Title 3',	'',	'inherit',	'closed',	'closed',	'',	'27-revision-v1',	'',	'',	'2021-12-18 18:05:11',	'2021-12-18 18:05:11',	'',	27,	'http://localhost:8080/?p=30',	0,	'revision',	'',	0),
-(31,	1,	'2021-12-18 18:05:43',	'2021-12-18 18:05:43',	'<!-- wp:paragraph -->\n<p>There were little things that she simply could not stand. The sound of someone tapping their nails on the table. A person chewing with their mouth open. Another human imposing themselves into her space. She couldn\'t stand any of these things, but none of them compared to the number one thing she couldn\'t stand which topped all of them combined.</p>\n<!-- /wp:paragraph -->',	'Title 4',	'',	'publish',	'open',	'open',	'',	'title-4',	'',	'',	'2021-12-18 18:05:43',	'2021-12-18 18:05:43',	'',	0,	'http://localhost:8080/?p=31',	0,	'post',	'',	0),
+(31,	1,	'2021-12-18 18:05:43',	'2021-12-18 18:05:43',	'<!-- wp:paragraph -->\n<p>There were little things that she simply could not stand. The sound of someone tapping their nails on the table. A person chewing with their mouth open. Another human imposing themselves into her space. She couldn\'t stand any of these things, but none of them compared to the number one thing she couldn\'t stand which topped all of them combined.</p>\n<!-- /wp:paragraph -->',	'Title 4',	'',	'publish',	'open',	'open',	'',	'title-4',	'',	'',	'2021-12-18 23:58:35',	'2021-12-18 23:58:35',	'',	0,	'http://localhost:8080/?p=31',	0,	'post',	'',	0),
 (32,	1,	'2021-12-18 18:05:43',	'2021-12-18 18:05:43',	'<!-- wp:paragraph -->\n<p>There were little things that she simply could not stand. The sound of someone tapping their nails on the table. A person chewing with their mouth open. Another human imposing themselves into her space. She couldn\'t stand any of these things, but none of them compared to the number one thing she couldn\'t stand which topped all of them combined.</p>\n<!-- /wp:paragraph -->',	'Title 4',	'',	'inherit',	'closed',	'closed',	'',	'31-revision-v1',	'',	'',	'2021-12-18 18:05:43',	'2021-12-18 18:05:43',	'',	31,	'http://localhost:8080/?p=32',	0,	'revision',	'',	0),
 (33,	1,	'2021-12-18 18:06:10',	'2021-12-18 18:06:10',	'<!-- wp:paragraph -->\n<p>It was a rat\'s nest. Not a literal one, but that is what her hair seemed to resemble every morning when she got up. It was going to take at least an hour to get it under control and she was sick and tired of it. She peered into the mirror and wondered if it was worth it. It wasn\'t. She opened the drawer and picked up the hair clippers.</p>\n<!-- /wp:paragraph -->',	'Title 5',	'',	'publish',	'open',	'open',	'',	'title-5',	'',	'',	'2021-12-18 18:06:10',	'2021-12-18 18:06:10',	'',	0,	'http://localhost:8080/?p=33',	0,	'post',	'',	0),
 (34,	1,	'2021-12-18 18:06:10',	'2021-12-18 18:06:10',	'<!-- wp:paragraph -->\n<p>It was a rat\'s nest. Not a literal one, but that is what her hair seemed to resemble every morning when she got up. It was going to take at least an hour to get it under control and she was sick and tired of it. She peered into the mirror and wondered if it was worth it. It wasn\'t. She opened the drawer and picked up the hair clippers.</p>\n<!-- /wp:paragraph -->',	'Title 5',	'',	'inherit',	'closed',	'closed',	'',	'33-revision-v1',	'',	'',	'2021-12-18 18:06:10',	'2021-12-18 18:06:10',	'',	33,	'http://localhost:8080/?p=34',	0,	'revision',	'',	0),
@@ -456,7 +459,7 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (36,	1,	'2021-12-18 18:06:43',	'2021-12-18 18:06:43',	'<!-- wp:paragraph -->\n<p>Barbara had been waiting at the table for twenty minutes. it had been twenty long and excruciating minutes. David had promised that he would be on time today. He never was, but he had promised this one time. She had made him repeat the promise multiple times over the last week until she\'d believed his promise. Now she was paying the price.</p>\n<!-- /wp:paragraph -->',	'Title 6',	'',	'inherit',	'closed',	'closed',	'',	'35-revision-v1',	'',	'',	'2021-12-18 18:06:43',	'2021-12-18 18:06:43',	'',	35,	'http://localhost:8080/?p=36',	0,	'revision',	'',	0),
 (37,	1,	'2021-12-18 18:07:08',	'2021-12-18 18:07:08',	'<!-- wp:paragraph -->\n<p>I\'m meant to be writing at this moment. What I mean is, I\'m meant to be writing something else at this moment. The document I\'m meant to be writing is, of course, open in another program on my computer and is patiently awaiting my attention. Yet here I am plonking down senseless sentiments in this paragraph because it\'s easier to do than to work on anything particularly meaningful. I am grateful for the distraction.</p>\n<!-- /wp:paragraph -->',	'Title 7',	'',	'publish',	'open',	'open',	'',	'title-7',	'',	'',	'2021-12-18 18:07:08',	'2021-12-18 18:07:08',	'',	0,	'http://localhost:8080/?p=37',	0,	'post',	'',	0),
 (38,	1,	'2021-12-18 18:07:08',	'2021-12-18 18:07:08',	'<!-- wp:paragraph -->\n<p>I\'m meant to be writing at this moment. What I mean is, I\'m meant to be writing something else at this moment. The document I\'m meant to be writing is, of course, open in another program on my computer and is patiently awaiting my attention. Yet here I am plonking down senseless sentiments in this paragraph because it\'s easier to do than to work on anything particularly meaningful. I am grateful for the distraction.</p>\n<!-- /wp:paragraph -->',	'Title 7',	'',	'inherit',	'closed',	'closed',	'',	'37-revision-v1',	'',	'',	'2021-12-18 18:07:08',	'2021-12-18 18:07:08',	'',	37,	'http://localhost:8080/?p=38',	0,	'revision',	'',	0),
-(39,	1,	'2021-12-18 18:07:43',	'2021-12-18 18:07:43',	'<!-- wp:paragraph -->\n<p>He wondered if he should disclose the truth to his friends. It would be a risky move. Yes, the truth would make things a lot easier if they all stayed on the same page, but the truth might fracture the group leaving everything in even more of a mess than it was not telling the truth. It was time to decide which way to go.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Sometimes it\'s just better not to be seen. That\'s how Harry had always lived his life. He prided himself as being the fly on the wall and the fae that blended into the crowd. That\'s why he was so shocked that she noticed him.</p>\n<!-- /wp:paragraph -->',	'Title 8',	'',	'publish',	'open',	'open',	'',	'title-8',	'',	'',	'2021-12-18 18:07:43',	'2021-12-18 18:07:43',	'',	0,	'http://localhost:8080/?p=39',	0,	'post',	'',	0),
+(39,	1,	'2021-12-18 18:07:43',	'2021-12-18 18:07:43',	'<!-- wp:paragraph -->\n<p>He wondered if he should disclose the truth to his friends. It would be a risky move. Yes, the truth would make things a lot easier if they all stayed on the same page, but the truth might fracture the group leaving everything in even more of a mess than it was not telling the truth. It was time to decide which way to go.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Sometimes it\'s just better not to be seen. That\'s how Harry had always lived his life. He prided himself as being the fly on the wall and the fae that blended into the crowd. That\'s why he was so shocked that she noticed him.</p>\n<!-- /wp:paragraph -->',	'Title 8',	'',	'publish',	'open',	'open',	'',	'title-8',	'',	'',	'2021-12-18 23:59:05',	'2021-12-18 23:59:05',	'',	0,	'http://localhost:8080/?p=39',	0,	'post',	'',	0),
 (40,	1,	'2021-12-18 18:07:43',	'2021-12-18 18:07:43',	'<!-- wp:paragraph -->\n<p>He wondered if he should disclose the truth to his friends. It would be a risky move. Yes, the truth would make things a lot easier if they all stayed on the same page, but the truth might fracture the group leaving everything in even more of a mess than it was not telling the truth. It was time to decide which way to go.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Sometimes it\'s just better not to be seen. That\'s how Harry had always lived his life. He prided himself as being the fly on the wall and the fae that blended into the crowd. That\'s why he was so shocked that she noticed him.</p>\n<!-- /wp:paragraph -->',	'Title 8',	'',	'inherit',	'closed',	'closed',	'',	'39-revision-v1',	'',	'',	'2021-12-18 18:07:43',	'2021-12-18 18:07:43',	'',	39,	'http://localhost:8080/?p=40',	0,	'revision',	'',	0),
 (41,	1,	'2021-12-18 18:08:17',	'2021-12-18 18:08:17',	'<!-- wp:paragraph -->\n<p>Finding the truth wouldn\'t be easy, that\'s for sure. Then there was the question of whether or not Jane really wanted to know the truth. That\'s the thing that bothered her most. It wasn\'t the difficulty of actually finding out what happened that was the obstacle, but having to live with that information once it was found.</p>\n<!-- /wp:paragraph -->',	'Title 9',	'',	'publish',	'open',	'open',	'',	'title-9',	'',	'',	'2021-12-18 18:08:17',	'2021-12-18 18:08:17',	'',	0,	'http://localhost:8080/?p=41',	0,	'post',	'',	0),
 (42,	1,	'2021-12-18 18:08:17',	'2021-12-18 18:08:17',	'<!-- wp:paragraph -->\n<p>Finding the truth wouldn\'t be easy, that\'s for sure. Then there was the question of whether or not Jane really wanted to know the truth. That\'s the thing that bothered her most. It wasn\'t the difficulty of actually finding out what happened that was the obstacle, but having to live with that information once it was found.</p>\n<!-- /wp:paragraph -->',	'Title 9',	'',	'inherit',	'closed',	'closed',	'',	'41-revision-v1',	'',	'',	'2021-12-18 18:08:17',	'2021-12-18 18:08:17',	'',	41,	'http://localhost:8080/?p=42',	0,	'revision',	'',	0),
@@ -512,13 +515,13 @@ INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_orde
 (1,	2,	0),
 (22,	3,	0),
 (24,	3,	0),
-(25,	5,	0),
+(25,	6,	0),
 (27,	6,	0),
-(31,	6,	0),
+(31,	2,	0),
 (33,	6,	0),
 (35,	5,	0),
 (37,	4,	0),
-(39,	1,	0),
+(39,	4,	0),
 (41,	5,	0),
 (43,	3,	0),
 (44,	3,	0),
@@ -538,11 +541,11 @@ CREATE TABLE `wp_term_taxonomy` (
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `description`, `parent`, `count`) VALUES
-(1,	1,	'category',	'',	0,	1),
-(2,	2,	'category',	'',	0,	1),
+(1,	1,	'category',	'',	0,	0),
+(2,	2,	'category',	'',	0,	2),
 (3,	3,	'nav_menu',	'',	0,	5),
-(4,	4,	'category',	'',	0,	1),
-(5,	5,	'category',	'',	0,	3),
+(4,	4,	'category',	'',	0,	2),
+(5,	5,	'category',	'',	0,	2),
 (6,	6,	'category',	'',	0,	3);
 
 DROP TABLE IF EXISTS `wp_usermeta`;
@@ -602,4 +605,4 @@ CREATE TABLE `wp_users` (
 INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
 (1,	'ben2613',	'$P$BBgJApeknMIeBy4o.OY.CHbe/JGTUW1',	'ben2613',	'ben2613.w@gmail.com',	'http://localhost:8080',	'2021-12-16 23:49:30',	'',	0,	'ben2613');
 
--- 2021-12-18 23:04:32
+-- 2021-12-19 00:59:24
