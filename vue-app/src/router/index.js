@@ -1,9 +1,10 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import Home from '../pages/Home.vue'
+import PostList from '../pages/PostList.vue'
 import Post from '../pages/Post.vue'
 
 const routes = [
-  { path: '/', component: Home },
+  { path: '/', component: PostList },
+  { path: '/cat/:id', component: PostList },
   { path: '/post/:id', component: Post },
 ]
 
