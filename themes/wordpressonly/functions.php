@@ -14,3 +14,14 @@ function wordpressonly_add_scripts() {
   wp_enqueue_style( 'theme-style', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
 }
 add_action( 'wp_enqueue_scripts', 'wordpressonly_add_scripts' );
+
+// get site icon into index json
+add_filter( 'rest_index', 'add_icon_to_JSON' );
+function add_icon_to_JSON($index) {
+  $sizes = [32, 150, 180, 192, 270, 300, 'full'];
+  $index->data['site_icon_url'] = [];
+  for ($i=0; $i < sizeof($sizes); $i++) {
+    $index->data['site_icon_url'][$sizes[$i]] = get_site_icon_url($sizes[$i]);
+  }
+  return $index;
+}
