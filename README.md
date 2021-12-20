@@ -17,6 +17,12 @@
 
 You may change to use `wordpress` docker image just in case you do not trust the image I used for debugging
 
+### Clean up
+- run `docker-compose down`
+- run `docker volume ls` to find the volume created here, it should start with project name and end with _wordpress and _db
+- run `docker volume rm <volumn name>` for these two volumes
+- delete this repo directory
+
 You may see lots of error popping up in your editor / IDE as I do not map the whole wordpress folder to local drive, thus the intellisense cannot find the Wordpress built-in function.
 
 But they are too big to include to a repo and break part of the reason we use docker image I guess
