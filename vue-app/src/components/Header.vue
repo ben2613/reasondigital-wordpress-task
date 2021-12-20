@@ -1,16 +1,21 @@
+<script setup>
+defineProps({
+  menuOn: Boolean,
+})
+</script>
 <template>
-  <header>
-    <div id="icon-n-menu">
+  <header class="page-header">
+    <div id="icon-n-menu" :style="menuOn?{backgroundColor:'white'}:{}">
       <label for="menu-toggle" id="menu-icon">
         <div></div>
         <div></div>
         <div></div>
       </label>
-      <a href="http://localhost:8080/" class="custom-logo-link" rel="home" aria-current="page">
+      <router-link to="/" class="custom-logo-link" rel="home" aria-current="page">
         <img :src="siteLogoUrl" class="custom-logo" :alt="siteTitle" />
-      </a>
+      </router-link>
     </div>
-    <input type="checkbox" id="menu-toggle" />
+    <input type="checkbox" id="menu-toggle" v-model="menuOn" />
     <div class="menu-expand">
       <div class="site-info">
         <h1 class="site-title">{{ siteTitle }}</h1>
@@ -44,16 +49,9 @@ export default {
 }
 </script>
 <style lang="scss">
-header.page-header,
-main {
-  position: relative;
-}
-
 header.page-header {
+  position: relative;
   z-index: 1;
-}
-main {
-  z-index: 0;
 }
 
 #icon-n-menu {
@@ -92,6 +90,7 @@ main {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  background-color: white;
   align-items: flex-end;
   .cat-menu a {
     &:first-of-type {
