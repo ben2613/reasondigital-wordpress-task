@@ -12,7 +12,7 @@
 ### Vue App
 
 - If you changed the port `8080`, edit the `VITE_API_URL` at `vue-app/.env` correspondingly
-- Go `vue-app`, Run `yarn & yarn build` or `npm i & npm run build` to build the project into `dist` folder
+- Go `vue-app`, Run `yarn && yarn build` or `npm i && npm run build` to build the project into `dist` folder
 - Browse http://localhost:8081/ to VueJS App fetching WordPress API
 
 You may change to use `wordpress` docker image just in case you do not trust the image I used for debugging
